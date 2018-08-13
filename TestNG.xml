@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.qa.test.homepagetest"/>
+      <class name="com.crm.qa.test.loginpagetest"/>
+      <class name="com.crm.qa.utility.Brokenlinks"/>
+      <class name="com.crm.qa.test.newcontactpage"/>
+      <class name="com.crm.qa.test.forgetpasswordtest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
