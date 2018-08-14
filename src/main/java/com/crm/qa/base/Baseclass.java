@@ -42,7 +42,7 @@ public static WebEventListener eventListener;
 			driver.register(eventListener);
 
 		}
-		else if(prop.getProperty("browser").equals("headlesschrome")) {
+		else if(prop.getProperty("browser").equals("headless")) {
 			
 			ChromeOptions ch = new ChromeOptions();
 			 ch.addArguments("headless");
